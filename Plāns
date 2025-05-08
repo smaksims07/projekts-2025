@@ -1,0 +1,75 @@
+Tēma : Telegram bots skolēnu atgādinājumiem
+
+
+1. Problēmas apraksts
+
+Mūsdienu skolēni ir noslogoti ar dažādiem mājasdarbiem, kontroldarbiem un citiem uzdevumiem. Daudzi aizmirst laikus sagatavoties, kas ietekmē sekmes un izraisa stresu. Ir nepieciešams ērts un vienkāršs veids, kā saņemt personalizētus atgādinājumus.
+
+
+2. Mērķauditorija:
+
+Latvijas pamatskolas un vidusskolas skolēni vecumā no 12 līdz 18 gadiem, kas izmanto Telegram.
+
+
+3. Eksistējošo risinājumu analīze
+
+1. Google Calendar
+Plusi: Precīzi atgādinājumi, sinhronizācija
+Mīnusi: Nepieciešama Gmail, sarežģīta skolēniem
+2. ToDoist, Notion u.c.
+Plusi: Liela funkcionalitāte
+Minusi: Nav lokalizācijas, grūti lietojams
+3.Piezīmes telefonā
+Plusi: Vienkārši, pieejami
+Minusi: Nav atgādinājumu funkcijas Telegram
+
+
+4. Projektēšana
+
+Funkcionālās prasības:
+1.Lietotājs var pievienot jaunu atgādinājumu.
+2.Lietotājs var apskatīt visus savus atgādinājumus.
+3.Lietotājs var dzēst atgādinājumu.
+4.Bots automātiski nosūta atgādinājumu konkrētā laikā.
+5.Lietotājs var iestatīt atgādinājumam datumu un laiku.
+Nefunkcionālās prasības:
+1.Datu glabāšana jānodrošina ar SQLite.
+2.Telegram bots atbild 3 sekunžu laikā.
+3.Kods tiek strukturēts lasāmi, izmantojot snake_case.
+4.Ir komentāri pie visām if, for, while konstrukcijām.
+5.Visām ievadēm tiek veikta validācija.
+
+
+5. Plānošana
+
+Darba uzdevumu saraksts:
+1. Telegram bota izveide un reģistrācija ar BotFather.
+2. Lietotāja komandu (/add, /list, /delete, /help) izstrāde.
+3. Datu glabāšanas risinājuma (JSON/SQLite) integrēšana.
+4. Ievaddatu validācijas izstrāde (laiks, datums).
+5. Atgādinājumu nosūtīšanas fona mehānisms (plānotā darbība).
+
+
+6. Risinājuma prezentācija
+
+- Tiks prezentēts Telegram bots ar iespējām pievienot, apskatīt un dzēst atgādinājumus.
+- Prezentācija iekļaus īsu demo vai vairākus ekrānšāviņus, kur redzamas bota darbības.
+
+
+
+7. Izmaiņas saglabātas Github repozitorijā
+
+- Visi projekta faili (kods, dokumentācija, attēli) tiek ievietoti GitHub repozitorijā.
+- Tiek nodrošināta strukturēta mapju sistēma.
+
+
+
+8. Izmaiņas saglabātas vairākās iterācijās (vairāki commit)
+
+- Katrs būtisks izstrādes solis tiek saglabāts ar atsevišķu commit:
+  - Sākotnējā struktūra
+  - Komandu funkcionalitāte
+  - Validācija
+  - Datu glabāšana
+  - Testēšana
+  - Dokumentācija
