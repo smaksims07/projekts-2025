@@ -45,7 +45,7 @@ Nefunkcionālās prasības:
 Darba uzdevumu saraksts:
 1. Telegram bota izveide un reģistrācija ar BotFather.
 2. Lietotāja komandu (/add, /list, /delete, /help) izstrāde.
-3. Datu glabāšanas risinājuma (JSON/SQLite) integrēšana.
+3. Datu glabāšanas risinājuma SQLite integrēšana.
 4. Ievaddatu validācijas izstrāde (laiks, datums).
 5. Atgādinājumu nosūtīšanas fona mehānisms (plānotā darbība).
 
